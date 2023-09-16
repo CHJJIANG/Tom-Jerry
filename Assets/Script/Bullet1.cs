@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Bullet : MonoBehaviour
+public class Bullet1 : MonoBehaviour
 {
 
 
@@ -14,7 +14,7 @@ public class Bullet : MonoBehaviour
             Destroy(gameObject);
         }
 
-        if (collision.gameObject.CompareTag("player2"))
+        if (collision.gameObject.CompareTag("player1"))
         {
             // 在这里可以执行特定于玩家的操作
             // 获取玩家控制脚本
@@ -38,7 +38,7 @@ public class Bullet : MonoBehaviour
             Debug.Log("life left: " + playerController.playerHealth);
         }
 
-        if (collision.gameObject.CompareTag("Cheese2"))
+        if (collision.gameObject.CompareTag("Cheese1"))
         {
             // 在这里可以执行特定于玩家的操作
             // 获取玩家控制脚本
@@ -49,7 +49,7 @@ public class Bullet : MonoBehaviour
                 // 减少芝士的生命值
                 playerController.playerHealth--;
                 // 加分
-                playerController.playerScore+=3;
+                playerController.playerScore += 3;
 
                 // 处理玩家死亡逻辑
                 if (playerController.playerHealth <= 0)
@@ -64,7 +64,7 @@ public class Bullet : MonoBehaviour
             Debug.Log("Cheese Health: " + playerController.playerHealth);
         }
 
-        if (collision.gameObject.CompareTag("Cheese1"))
+        if (collision.gameObject.CompareTag("Cheese2"))
         {
             // 在这里可以执行特定于玩家的操作
             // 获取玩家控制脚本
