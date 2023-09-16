@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2f8277694f4ad44f5a38913da3717efe
+guid: 9e54c0fa5bc814378b1121767aeb6c73
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cat_0
+      name: butch_0
       rect:
         serializedVersion: 2
-        x: 200
-        y: 250
-        width: 1066
-        height: 1448
+        x: 300
+        y: 200
+        width: 1016
+        height: 1548
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71e615405d20947ca9b1346512f5f9c2
-      internalID: 573461741
+      spriteID: d2a74f3c7a0de4af5bee6f186d96e265
+      internalID: 19590289
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cat_1
+      name: butch_1
       rect:
         serializedVersion: 2
-        x: 1466
-        y: 250
-        width: 1066
-        height: 1448
+        x: 1516
+        y: 200
+        width: 1016
+        height: 1548
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e22f76b3bb6b45fa9dff4c3fc514a2d
-      internalID: 1418473065
+      spriteID: 9179cc1ee587645edad7b79b1149333a
+      internalID: 1815255899
       vertices: []
       indices: 
       edges: []
@@ -162,8 +162,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      cat_0: 573461741
-      cat_1: 1418473065
+      butch_0: 19590289
+      butch_1: 1815255899
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
