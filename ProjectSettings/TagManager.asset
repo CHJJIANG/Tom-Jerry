@@ -8,8 +8,6 @@ TagManager:
   - floor
   - player2
   - player1
-  - Cheese1
-  - Cheese2
   layers:
   - Default
   - TransparentFX
