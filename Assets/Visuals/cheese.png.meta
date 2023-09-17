@@ -113,9 +113,9 @@ TextureImporter:
       name: cheese_0
       rect:
         serializedVersion: 2
-        x: 30
+        x: 100
         y: 0
-        width: 671.5
+        width: 664
         height: 626
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -134,9 +134,9 @@ TextureImporter:
       name: cheese_1
       rect:
         serializedVersion: 2
-        x: 731
+        x: 784
         y: 0
-        width: 671.5
+        width: 664
         height: 626
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -155,9 +155,9 @@ TextureImporter:
       name: cheese_2
       rect:
         serializedVersion: 2
-        x: 1432
+        x: 1468
         y: 0
-        width: 671.5
+        width: 664
         height: 626
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -176,9 +176,9 @@ TextureImporter:
       name: cheese_3
       rect:
         serializedVersion: 2
-        x: 2133
+        x: 2152
         y: 0
-        width: 671.5
+        width: 664
         height: 626
       alignment: 0
       pivot: {x: 0, y: 0}
