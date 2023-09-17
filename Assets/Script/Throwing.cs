@@ -1,7 +1,9 @@
 using UnityEngine;
+using System.Collections;
 
 public class Throwing : MonoBehaviour
 {
+    //tom
     public GameObject bulletPrefab; // 用于发射的子弹预制体
     public Transform firePoint; // 发射点
     public float minThrowForce = 10f; // 最小投掷力量
@@ -13,18 +15,29 @@ public class Throwing : MonoBehaviour
     private float maxChargeTime = 2f; // 最长允许充能时间（秒）
     private bool canShoot = true; // 控制玩家是否可以发射子弹
 
+    Animator AM;
+
+    void Start()
+    {
+        AM = gameObject.GetComponent<Animator>();
+        AM.SetBool("bluPose", false);
+        AM.SetBool("bluPose", false);
+    }
     void Update()
     {
         if (canShoot)
         {
             if (Input.GetKeyDown(KeyCode.S))
             {
+                AM.SetBool("bluPose", true);
                 chargeStartTime = Time.time;
                 isCharging = true;
             }
 
             if (Input.GetKeyUp(KeyCode.S) && isCharging)
             {
+                AM.SetBool("bluThrow", true);
+                //StartCoroutine(PosBack());
                 isCharging = false;
                 float chargeTime = Mathf.Clamp(Time.time - chargeStartTime, 0f, maxChargeTime); // 限制充能时间
                 float throwForce = Mathf.Lerp(minThrowForce, maxThrowForce, chargeTime / maxChargeTime); // 根据充能时间计算力量
@@ -35,6 +48,7 @@ public class Throwing : MonoBehaviour
             }
         }
     }
+
 
     void ThrowBullet(float throwForce, float throwAngle)
     {
@@ -57,6 +71,8 @@ public class Throwing : MonoBehaviour
 
         // 设置玩家不能发射新子弹，直到上一颗子弹消失
         canShoot = false;
+
+        
     }
 
     void FixedUpdate()
@@ -66,6 +82,20 @@ public class Throwing : MonoBehaviour
         {
             canShoot = true;
         }
+    }
+
+    //IEnumerator PosBack()
+    //{
+    //    AM.SetBool("bluThrow", true);
+    //    yield return new WaitForSeconds(0.1f);
+    //    AM.SetBool("bluThrow", false);
+    //    AM.SetBool("bluPose", false);
+    //}
+
+    void Back()
+    {
+        AM.SetBool("bluThrow", false);
+        AM.SetBool("bluPose", false);
     }
 }
 

@@ -1,7 +1,9 @@
 using UnityEngine;
+using System.Collections;
 
 public class Throwing1 : MonoBehaviour
 {
+    //butch
     public GameObject bulletPrefab; // 用于发射的子弹预制体
     public Transform firePoint; // 发射点
     public float minThrowForce = 10f; // 最小投掷力量
@@ -13,18 +15,29 @@ public class Throwing1 : MonoBehaviour
     private float maxChargeTime = 2f; // 最长允许充能时间（秒）
     private bool canShoot = true; // 控制玩家是否可以发射子弹
 
+    Animator AM;
+
+    void Start()
+    {
+        AM = gameObject.GetComponent<Animator>();
+        AM.SetBool("blackPose", false);
+        AM.SetBool("blackPose", false);
+    }
+
     void Update()
     {
         if (canShoot)
         {
             if (Input.GetKeyDown(KeyCode.K))
             {
+                AM.SetBool("blackPose", true);
                 chargeStartTime = Time.time;
                 isCharging = true;
             }
 
             if (Input.GetKeyUp(KeyCode.K) && isCharging)
             {
+                AM.SetBool("blackThrow", true);
                 isCharging = false;
                 float chargeTime = Mathf.Clamp(Time.time - chargeStartTime, 0f, maxChargeTime); // 限制充能时间
                 float throwForce = Mathf.Lerp(minThrowForce, maxThrowForce, chargeTime / maxChargeTime); // 根据充能时间计算力量
@@ -66,5 +79,11 @@ public class Throwing1 : MonoBehaviour
         {
             canShoot = true;
         }
+    }
+
+    void Back()
+    {
+        AM.SetBool("blackThrow", false);
+        AM.SetBool("blackPose", false);
     }
 }
