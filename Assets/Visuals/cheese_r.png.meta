@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 29315b39dec594ccf97f72b1ccd4b935
+guid: a5c2d587f09d84f2c88e29c0246152fe
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cheese_0
+      name: cheese_r_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21232cede730a4ffe9c34d6273b089c5
-      internalID: -421052315
+      spriteID: ec9b694ba1d984ccebf31cd5bd18d6d5
+      internalID: 1890533889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cheese_1
+      name: cheese_r_1
       rect:
         serializedVersion: 2
         x: 709
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8da08a73f3cf4e9cbbe81bbb5fddba0
-      internalID: 1657216214
+      spriteID: 291ddbad247304ae2932b57c0818dfee
+      internalID: 699559506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cheese_2
+      name: cheese_r_2
       rect:
         serializedVersion: 2
         x: 1418
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57f322b165ab64dbab6df2c5a7f325a4
-      internalID: -1817074633
+      spriteID: e240dd5aa650549488ff0bd4f55d4517
+      internalID: 1569328619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cheese_3
+      name: cheese_r_3
       rect:
         serializedVersion: 2
         x: 2127
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14d8451cb9c31481ca458f4fe3b42cfe
-      internalID: -1913840012
+      spriteID: 79a1c96b608884397b34a423cdc142d1
+      internalID: -1749550662
       vertices: []
       indices: 
       edges: []
@@ -204,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      cheese_0: -421052315
-      cheese_1: 1657216214
-      cheese_2: -1817074633
-      cheese_3: -1913840012
+      cheese_r_0: 1890533889
+      cheese_r_1: 699559506
+      cheese_r_2: 1569328619
+      cheese_r_3: -1749550662
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

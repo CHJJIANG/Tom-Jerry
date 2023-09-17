@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5292494693325961353}
   - component: {fileID: 2927870025022886698}
   - component: {fileID: -5624133093919676739}
+  - component: {fileID: -7012001864335621553}
   m_Layer: 6
   m_Name: Circle 1
   m_TagString: Bullet
@@ -171,3 +172,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a9fe39245b914be4b3894eda3d5c3fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &-7012001864335621553
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5366913038197174840}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bbb1744d3aad2433299051934d9128f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
