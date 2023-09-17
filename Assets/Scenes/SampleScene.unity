@@ -281,6 +281,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1222252039}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/Scenes/Game.unity
 --- !u!1 &98203774
 GameObject:
@@ -461,6 +462,8 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 =======
 >>>>>>> parent of ef65691 (Function Finished):Assets/Scenes/SampleScene.unity
+=======
+>>>>>>> parent of ef65691 (Function Finished)
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -553,6 +556,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/Scenes/Game.unity
 --- !u!1 &685049965
 GameObject:
@@ -640,6 +644,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> parent of ef65691 (Function Finished):Assets/Scenes/SampleScene.unity
+=======
+>>>>>>> parent of ef65691 (Function Finished)
 --- !u!1 &693782264
 GameObject:
   m_ObjectHideFlags: 0
@@ -1114,6 +1120,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1566652271}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/Scenes/Game.unity
 --- !u!1 &1222252038
 GameObject:
@@ -1376,6 +1383,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> parent of ef65691 (Function Finished):Assets/Scenes/SampleScene.unity
+=======
+>>>>>>> parent of ef65691 (Function Finished)
 --- !u!1 &1566652270
 GameObject:
   m_ObjectHideFlags: 0
@@ -1554,6 +1563,7 @@ Transform:
   m_GameObject: {fileID: 1850342302}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/Scenes/Game.unity
   m_LocalPosition: {x: -8, y: -2, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0}
@@ -1561,6 +1571,10 @@ Transform:
   m_LocalPosition: {x: -6.9758, y: -2.06, z: 0}
   m_LocalScale: {x: 0.91954046, y: 1.6017808, z: 1}
 >>>>>>> parent of ef65691 (Function Finished):Assets/Scenes/SampleScene.unity
+=======
+  m_LocalPosition: {x: -6.9758, y: -2.06, z: 0}
+  m_LocalScale: {x: 0.91954046, y: 1.6017808, z: 1}
+>>>>>>> parent of ef65691 (Function Finished)
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1578,6 +1592,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: 3
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/Scenes/Game.unity
   playerScore: 0
   PlayerScoreText: {fileID: 0}
@@ -1604,6 +1619,8 @@ Animator:
   m_WriteDefaultValuesOnDisable: 0
 =======
 >>>>>>> parent of ef65691 (Function Finished):Assets/Scenes/SampleScene.unity
+=======
+>>>>>>> parent of ef65691 (Function Finished)
 --- !u!1 &1911648237
 GameObject:
   m_ObjectHideFlags: 0
@@ -1660,11 +1677,15 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/Scenes/Game.unity
     oldSize: {x: 10.16, y: 15.48}
 =======
     oldSize: {x: 10.66, y: 14.48}
 >>>>>>> parent of ef65691 (Function Finished):Assets/Scenes/SampleScene.unity
+=======
+    oldSize: {x: 10.66, y: 14.48}
+>>>>>>> parent of ef65691 (Function Finished)
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1714,11 +1735,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/Scenes/Game.unity
   m_Sprite: {fileID: -1387956658, guid: c57c9b17625ad4338a2253e7bf8015bf, type: 3}
 =======
   m_Sprite: {fileID: 573461741, guid: 2f8277694f4ad44f5a38913da3717efe, type: 3}
 >>>>>>> parent of ef65691 (Function Finished):Assets/Scenes/SampleScene.unity
+=======
+  m_Sprite: {fileID: 573461741, guid: 2f8277694f4ad44f5a38913da3717efe, type: 3}
+>>>>>>> parent of ef65691 (Function Finished)
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1738,6 +1763,7 @@ Transform:
   m_GameObject: {fileID: 1911648237}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/Scenes/Game.unity
   m_LocalPosition: {x: 8, y: -2, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0}
@@ -1745,6 +1771,10 @@ Transform:
   m_LocalPosition: {x: 7.9377, y: -1.9706, z: 0}
   m_LocalScale: {x: 0.19641073, y: 0.17705442, z: 0.27229837}
 >>>>>>> parent of ef65691 (Function Finished):Assets/Scenes/SampleScene.unity
+=======
+  m_LocalPosition: {x: 7.9377, y: -1.9706, z: 0}
+  m_LocalScale: {x: 0.19641073, y: 0.17705442, z: 0.27229837}
+>>>>>>> parent of ef65691 (Function Finished)
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1787,6 +1817,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/Scenes/Game.unity
 --- !u!1 &1933498768
 GameObject:
@@ -1874,6 +1905,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> parent of ef65691 (Function Finished):Assets/Scenes/SampleScene.unity
+=======
+>>>>>>> parent of ef65691 (Function Finished)
 --- !u!1001 &4185109923608627353
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1954,9 +1987,12 @@ SceneRoots:
   - {fileID: 1911648241}
   - {fileID: 1850342306}
   - {fileID: 4185109923608627353}
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/Scenes/Game.unity
   - {fileID: 685049967}
   - {fileID: 1933498770}
   - {fileID: 1529719203}
 =======
 >>>>>>> parent of ef65691 (Function Finished):Assets/Scenes/SampleScene.unity
+=======
+>>>>>>> parent of ef65691 (Function Finished)
