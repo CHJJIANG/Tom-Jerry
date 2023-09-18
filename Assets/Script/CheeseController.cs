@@ -16,6 +16,8 @@ public class CheeseController : MonoBehaviour
 
     private int hurtTimes;
 
+    AudioSource AS;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +25,7 @@ public class CheeseController : MonoBehaviour
         hurtTimes = 0;
 
         BC = GetComponent<BoxCollider2D>();
+        AS = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -41,6 +44,7 @@ public class CheeseController : MonoBehaviour
             if (hurtTimes < hurt.Length - 1)
             {
                 hurtTimes++;
+                AS.Play();
             }
         }
 
